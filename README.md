@@ -28,8 +28,7 @@ $ sudo make install
 Times change, and so do compilers and systems. If you manage to patch a problem
 in this program, send me a pull request and I will incorporate it back into the
 repository. I recommend using GNU indent to reformat your sources before
-opening the pull request. The exact indent invocation used for this program
-was:
+opening the pull request. The recommended indent invocation is:
 
 ```
 indent --no-tabs --tab-size4 --indent-level4 --braces-on-if-line \
