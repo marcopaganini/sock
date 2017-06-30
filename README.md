@@ -31,7 +31,7 @@ repository. I recommend using GNU indent to reformat your sources before
 opening the pull request. The recommended indent invocation is:
 
 ```
-indent --no-tabs --tab-size4 --indent-level4 --braces-on-if-line \
+indent -l128 --no-tabs --tab-size4 --indent-level4 --braces-on-if-line \
        --cuddle-else --braces-on-func-def-line --braces-on-struct-decl-line \
        --cuddle-do-while --no-space-after-function-call-names \ 
        --no-space-after-parentheses --dont-break-procedure-type *.c
